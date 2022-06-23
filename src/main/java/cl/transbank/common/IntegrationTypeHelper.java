@@ -4,11 +4,11 @@ public class IntegrationTypeHelper {
     public static String getWebpayIntegrationType(IntegrationType integrationType){
         switch(integrationType){
             case LIVE:
-                return "https://web1qa.test.transbank.cl:5443";
+                return "https://webpay3g.transbank.cl";
             case MOCK:
                 return "";
             case TEST:
-                return "https://webpay3gint.transbank.cl";
+                return "https://web1qa.test.transbank.cl:5443";
 
         }
         return "https://webpay3gint.transbank.cl";
